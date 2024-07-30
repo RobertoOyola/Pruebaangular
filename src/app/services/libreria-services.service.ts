@@ -28,7 +28,7 @@ export class LibreriaServicesService {
   }
 
   getRandomLibros(): any {
-    return this.http.get(`${this.apiUrl}/random/10/author,title.json`).pipe(
+    return this.http.get(`${this.apiUrl}/random/25/author,title.json`).pipe(
       map(response => Object.values(response)),
       map(books => books.filter(book => book.author && book.title))
     );
