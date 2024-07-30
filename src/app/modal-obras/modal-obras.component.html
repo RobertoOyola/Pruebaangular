@@ -1,0 +1,10 @@
+<div class="modal-backdrop" (click)="closeModal()"></div>
+<div class="modal-content modal-obras">
+  <h2>Obras de {{ author }}</h2>
+  <div class="modal-body modal-obras">
+    <ul>
+      <li *ngFor="let title of titles" style="margin-bottom: 10px">{{ title.title }}</li>
+    </ul>
+  </div>
+  <button class="button-primary" (click)="closeModal()">Cerrar</button>
+</div>

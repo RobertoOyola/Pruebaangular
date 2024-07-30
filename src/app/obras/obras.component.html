@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Obras Aleatorias</h2>
+        <ul>
+          <li *ngFor="let obra of obrasAleatorias">
+            {{ obra.title }} ({{ obra.author }})
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>Autores</h2>
+        <ul>
+          <li *ngFor="let autor of autores">
+            {{ autor }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,18 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      <img src="assets/images/Bookicon.svg" id="icon" alt="User Icon" />
+    </div>
+
+    <form #loginForm="ngForm" (ngSubmit)="login()">
+      <input type="text" id="Correo" class="fadeIn second" name="Correo" [(ngModel)]="usuario.Correo" placeholder="Correo">
+      <input type="password" id="Contrasena" class="fadeIn second" name="Contrasena" [(ngModel)]="usuario.Contrasena" placeholder="Contrasena">
+      <input type="submit" class="fadeIn fourth" value="Ingresar">
+    </form>
+    <div id="formFooter">
+      <a class="underlineHover" href="#">No tiene cuenta registrese</a>
+    </div>
+
+  </div>
+</div>

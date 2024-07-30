@@ -1,0 +1,98 @@
+.author-list {
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+  }
+
+  .container-full {
+    max-width: 100%;
+  }
+  
+  .table-full-width {
+    width: 100%;
+  }
+
+  .obras-aleatorias li {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .obras-aleatorias .title {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .obras-aleatorias .author {
+    font-size: 14px;
+    color: #666;
+    display: block;
+  }
+  
+  .obras-aleatorias {
+    width: 70%;
+    float: left;
+  }
+  
+  .autores {
+    flex-grow: 2; /* hacer que la sección de Autores crezca para ocupar el espacio disponible */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row; /* o column */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .table-responsive {
+    width: 500px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  .thead-dark th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #23527c;
+  }
